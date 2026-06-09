@@ -263,6 +263,42 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:48px
   .nav-links{display:none}
   .hero{padding:120px 5% 80px}
 }
+.contact-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    background: var(--card-bg);
+}
+
+.contact-info h3 {
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 0.8rem;
+}
+
+.contact-label {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.contact-value {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-value:hover {
+    color: var(--accent-color);
+}
 </style>
 
 <nav>
@@ -520,6 +556,28 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:48px
         <h2 class="section-title">Built from a <em>Simple Observation</em></h2>
         <p class="section-body">People plan journeys around estimated arrival times. But what truly matters is whether they can depend on those plans.</p>
         <p class="section-body" style="margin-top:16px">SureMyTrip was created to close the gap between what travel apps promise and what the real world delivers. Our mission is to make travel decisions more informed, more transparent, and more reliable — for everyone, everywhere.</p>
+      <div class="contact-info">
+    <h3>Contact Us</h3>
+
+    <div class="contact-item">
+        <span class="contact-label">Contact Person:</span>
+        <span class="contact-value">Amit Yadav</span>
+    </div>
+
+    <div class="contact-item">
+        <span class="contact-label">Phone:</span>
+        <a href="tel:+917531099396" class="contact-value">
+            +91 75310 99396
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <span class="contact-label">Email:</span>
+        <a href="mailto:suremytripoffical@gmail.com" class="contact-value">
+            suremytripoffical@gmail.com
+        </a>
+    </div>
+</div>
       </div>
       <div class="founder-card">
         <div class="fc-label">Founding Principle</div>
